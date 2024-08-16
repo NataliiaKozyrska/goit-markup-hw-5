@@ -375,20 +375,20 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div class="footer-div">
-      <p class="label-text">Subscribe</p>
-      <form class="footer-form" name="footer-name" autocomplite="off" novalidate></form>
-      <label class="footer-label" for="footer-input">
-        <input type="Email" class="footer-input-class" name="footer-input-email" id="footer-input-email"
-          placeholder="e-mail"></label>
-      <!-- <form class="footer-btn" action=""> -->
-      <button class="footer-button" type="submit">Subscribe
-        <svg class="footer-svg" width="24" height="24">
-          <use href="./images/icons-modal.svg#icon-flight"> </use>
-        </svg>
-      </button>
-      <!-- </form> -->
+
+      <div class="footer-div">
+        <p class="label-text">Subscribe</p>
+        <label class="footer-label" for="footer-input">
+          <form class="footer-form" name="footer-name" autocomplite="off" novalidate></form>
+          <input type="email" class="footer-input-class" name="footer-input-email" id="footer-input-email"
+            placeholder="E-mail">
+          <button class="footer-button" type="submit">Subscribe
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons-modal.svg#icon-flight"> </use>
+            </svg>
+          </button>
+        </label>
+      </div>
     </div>
   </footer>
 
@@ -404,9 +404,9 @@
 
       <form class="modal-form">
         <div class="modal-field">
-          <label for="name">Name</label>
+          <label class="label-class" for="user-name">Name</label>
           <div class="modal-field-wrap">
-            <input type="text" class="modal-input" name="user-name" id="name">
+            <input type="text" class="modal-input" name="user-name" id="user-name">
             <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons-modal.svg#icon-person-icon"></use>
             </svg>
@@ -415,8 +415,8 @@
         <div class="modal-field">
           <label for="name">Phone</label>
           <div class="modal-field-wrap">
-            <input type="tel" class="modal-input" name="user-phone">
-            <svg class="icon-tel" width="18" height="24">
+            <input type="text" class="modal-input" name="user-name" id="user-name">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons-modal.svg#icon-phone-icon"></use>
             </svg>
           </div>
@@ -424,7 +424,7 @@
         <div class="modal-field">
           <label for="name">Email</label>
           <div class="modal-field-wrap">
-            <input type="email" class="modal-input" name="user-email">
+            <input type="text" class="modal-input" name="user-name" id="user-name">
             <svg class="icon-tel" width="18" height="24">
               <use href="./images/icons-modal.svg#icon-email-icon"></use>
             </svg>
@@ -432,19 +432,20 @@
         </div>
 
         <div class="modal-field">
-          <label class="name" for="user-comment">Comment</label>
-          <textarea name="textarea-comment" class="modal-comment" id="user-comment" placeholder="Text-input"></textarea>
+          <label class="label-class" for="user-comment">Comment</label>
+          <textarea name="user-comment" class="modal-comment" id="user-comment" placeholder="Text input"></textarea>
         </div>
 
         <div class="div-checkbox">
-          <input class="modal-check visually-hidden" type="checkbox" name="user-checkbox" id="user-checkbox"
+          <input class="modal-check visually-hidden" type="checkbox" name="user-checkbox" id="user-privacy"
             value="true">
-          <label class="modal-check-text" for="terms">
+          <label class="modal-check-text" for="user-privacy">
             <span class="modal-check-box">
               <svg width="10" height="8">
                 <use href="./images/icons-modal.svg#icon-icon-check"></use>
-              </svg></span>I accept the terms and
-            conditions of the <span class="privacy-policy">Privacy Policy</span></label>
+              </svg>
+            </span>I accept the terms and
+            conditions of the<span class="privacy-policy">Privacy Policy</span></label>
         </div>
         <button class="btn-send" type="submit">Send</button>
       </form>
