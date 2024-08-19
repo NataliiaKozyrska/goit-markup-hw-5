@@ -783,8 +783,9 @@ line-height: 1.17;
 color: #8e8f99;
 }
 
-.modal-check:checked + .modal-check-text span {
+.modal-check:checked + .modal-check-text > .modal-check-box {
   fill: #f4f4fd;
+  background: #404BBF;
 }
 .modal-check{
   border: 1px solid #fff;
