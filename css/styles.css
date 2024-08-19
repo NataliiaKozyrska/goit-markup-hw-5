@@ -747,6 +747,9 @@ padding-right: 24px;
   transform: translateY(-50%);
 }
 .modal-field{
+  margin-bottom: 8px;
+}
+.modal-textarea{
   margin-bottom: 16px;
 }
 .modal-field-wrap{
